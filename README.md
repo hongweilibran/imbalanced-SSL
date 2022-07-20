@@ -1,6 +1,3 @@
 # imbalanced-SSL
-a respository for imbalanced self-supervised representation learning
-
-under continous construction. :)
-just me an email if you have questions
-
+A respository for imbalanced self-supervised representation learning
+It was a great journey to work on this long-term idea to address imbalance issue in self-supervised learning setting. 
