@@ -1,0 +1,16 @@
+Namespace(batch_size=512, checkpoint='', data='', dataset='cifar', epochs=2000, experiment='res18_scheduling_sgd_temp0.2_wd1e-4_lr0.5_b512_twolayerProj_epoch2000_split1_D_b_newNT_s10', imagenetCustomSplit='', local_rank=0, lr=0.5, mask_save_freq=100, model='res18', num_workers=8, optimizer='sgd', output_ch=128, print_freq=50, prune=False, prune_dual_bn=False, prune_percent=0.3, random_prune_percent=0, resizeLower=0.1, resume=False, save_dir='checkpoints', save_freq=100, scheduler='cosine', seed=10, strength=1.0, temperature=0.2, testContrastiveAcc=False, testContrastiveAccTest=False, trainSplit='cifar10_imbSub_with_subsets/split1_D_b.npy')
+class distribution in training set is [1116, 1116, 1116, 1116, 1116, 1116, 1116, 1116, 1116, 1116]
+current lr is 0.0
+Epoch: [1][0/22]	Loss 6.8767 (6.8767)	data_time: 0.87 (0.87)	train_time: 3.85 (3.85)	
+Epoch: [1][21/22]	Loss 5.6770 (6.3051)	data_time: 0.01 (0.04)	train_time: 3.37 (0.73)	
+current lr is 0.05
+Epoch: [2][0/22]	Loss 5.9461 (5.9461)	data_time: 0.94 (0.94)	train_time: 1.61 (1.61)	
+Epoch: [2][21/22]	Loss 5.2514 (5.6523)	data_time: 0.00 (0.05)	train_time: 0.55 (0.42)	
+current lr is 0.1
+Epoch: [3][0/22]	Loss 5.5916 (5.5916)	data_time: 0.92 (0.92)	train_time: 1.59 (1.59)	
+Epoch: [3][21/22]	Loss 5.0403 (5.3369)	data_time: 0.00 (0.04)	train_time: 0.28 (0.56)	
+current lr is 0.15
+Epoch: [4][0/22]	Loss 5.0947 (5.0947)	data_time: 0.98 (0.98)	train_time: 1.31 (1.31)	
+Epoch: [4][21/22]	Loss 4.8860 (5.1483)	data_time: 0.00 (0.05)	train_time: 0.53 (0.61)	
+current lr is 0.2
+Epoch: [5][0/22]	Loss 4.9583 (4.9583)	data_time: 0.95 (0.95)	train_time: 1.30 (1.30)	
